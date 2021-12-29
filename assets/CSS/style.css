@@ -2,6 +2,8 @@
 
 :root {
   --bg-body: rgb(177, 255, 255);
+  --cor-light-coral: #f08080;
+  --bg-button: rgb(241, 214, 214);
 }
 
 * {
@@ -14,4 +16,16 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: var(--bg-body);
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--cor-light-coral);
+  background-color: var(--bg-button);
+  color: var(--cor-light-coral);
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
 }
