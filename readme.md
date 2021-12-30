@@ -1,7 +1,7 @@
 <div style="display: inline_block" align="center">
-# Introdução ao Javascript </div>
+<h1>Introdução ao Javascript</h1>
 
-##  Projeto Contador
+<h2>Contador</h2></div></br>
 
 Nesse projeto do Bootcamp Inter Frontend Developer da [DIO](https://digitalinnovation.one/) e desenvolvido por [Stephany Nusch](https://github.com/stebsnusch), criamos um contador utilizando HTML, CSS e JS. Tive a oportunidade de relembrar métodos e propiedades como: <span style="color:red">`onclick`</span> , `getElementById` e  `innerHTMl`, onde utilizamos:
 
@@ -21,7 +21,7 @@ Após o termino do projeto foi deixado os seguintes desafios:
 2. Criar condicionais para desabilitar os botões ( ex: o `count` chegando no 10 desabilita o botão incrementar); <span style="color:green">✔</span>
 3. Mude a cor do texto em `CurrentNumber` para vermelho quando o número for negativo. <span style="color:green">✔</span>
 
-## <span style="color:green">Desafios resolvidos!</span> 
+ <div style="display: inline_block" align="center"><h2 style="color:green">Desafios resolvidos!</h2></div>
  
 1.  Foi substituído o `onclick` pelo método `addEventListenner`;
 2. Os botões só funcionam no intervalo de -10 a 10;
