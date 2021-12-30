@@ -18,6 +18,6 @@ Após o termino do projeto foi deixado os seguintes desafios:
 
 1.  Implementar os eventos usando o método `addEventListenner`; <span style="color:green">✔</span>
 2. Criar condicionais para desabilitar os botões ( ex: o `count` chegando no 10 desabilita o botão incrementar);
-3. Mude a cor do texto em `CurrentNumber` para vermelho quando o número for negativo.
+3. Mude a cor do texto em `CurrentNumber` para vermelho quando o número for negativo. <span style="color:green">✔</span>
 
 #### Em breve tentarei resolve-los.

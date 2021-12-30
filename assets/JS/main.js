@@ -6,11 +6,19 @@ var adicionar = document.getElementById('adicionar');
 function increment(){
   currentNumber = currentNumber + 1;
   currentNumberWrapper.innerHTML = currentNumber;
+    while (currentNumber >= 0) {
+    currentNumberWrapper.style.color = 'black';
+    break;
+  }
 }
 
 function decrement(){
   currentNumber = currentNumber - 1;
   currentNumberWrapper.innerHTML = currentNumber;
+  while (currentNumber <= -1) {
+    currentNumberWrapper.style.color = 'red';
+    break;
+  }
 }
 
 subtrair.addEventListener('click', decrement);
