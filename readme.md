@@ -1,4 +1,5 @@
-# Introdução ao Javascript 
+<div style="display: inline_block" align="center">
+# Introdução ao Javascript </div>
 
 ##  Projeto Contador
 
