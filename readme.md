@@ -22,6 +22,6 @@ Após o termino do projeto foi deixado os seguintes desafios:
 
 ## <span style="color:green">Desafios resolvidos!</span> 
  
-1.  Foi substido o `onclick` pelo método `addEventListenner`;
+1.  Foi substituído o `onclick` pelo método `addEventListenner`;
 2. Os botões só funcionam no intervalo de -10 a 10;
 3. O texto muda para vermelho quando o número for negativo.
