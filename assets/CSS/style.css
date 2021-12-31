@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
 :root {
-  --bg-body: rgb(177, 255, 255);
-  --cor-light-coral: #f08080;
-  --bg-button: rgb(241, 214, 214);
+  --bg-body: #292a73;
+  --bg-container: #1a1b4b; 
+  --cor-content-bt: #f7a400;
+  --bg-button: #3e4491;
+  --font: #f7a400;
 }
 
 * {
@@ -11,20 +13,29 @@
 }
 
 body {
+  color: var(--font);
+  background-color: var(--bg-body);
+}
+.container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: var(--bg-body);
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: var(--bg-container);
+  border-radius: 10px;
+  padding-bottom: 20px;
 }
 
 button {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 2px solid var(--cor-light-coral);
+  border: 2px solid var(--cor-content-bt);
   background-color: var(--bg-button);
-  color: var(--cor-light-coral);
+  color: var(--cor-content-bt);
   font-size: 16pt;
   font-weight: 600;
   text-align: center;

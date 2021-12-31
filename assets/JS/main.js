@@ -10,7 +10,7 @@ function increment() {
   currentNumber = currentNumber + 1
   currentNumberWrapper.innerHTML = currentNumber
   while (currentNumber >= 0) {
-    currentNumberWrapper.style.color = 'black'
+    currentNumberWrapper.style.color = '#f7a400';
     break
   }
   while (currentNumber >= 10) {
